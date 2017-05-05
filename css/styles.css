@@ -1,3 +1,11 @@
+/*Global*/
+.container {
+  width: 82%;
+}
+
+/*Jumbotron*/
+
+
 #result {
   display: none;
 }
