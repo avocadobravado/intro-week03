@@ -13,15 +13,27 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Piggy's Ping Pong</h1>
-        <h2>Rules</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="row">
+          <h1>Piggy's Ping Pong</h1>
+          <div class="col-md-6 jumboleft">
+            <h2>Rules</h2>
+            <p>Welcome to Piggy’s Ping Pong! Ping Pong will count up to your number *oink* from one with the following exceptions:</p>
+            <ul>
+              <li>Numbers divisible by 3 will become <strong>"ping"</strong></li>
+              <li>Numbers divisible by 5 will become <strong>"pong"</strong></li>
+              <li>Numbers divisible by 3 and 5 will become <strong>"pingpong"</strong></li>
+            </ul>
+          </div><!--Jumboleft closes-->
+          <div class="col-md-6 jumboright">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div><!--Jumboright closes-->
+        </div><!--Row closes-->
       </div><!--Jumbotron closes-->
     </div><!--Container closes-->
       <div class="container">
         <div class="row">
           <div class="col-md-6 left">
-              <h1>Play!</h1>
+              <h1>1... 2... Play!</h1>
               <hr>
                 <form id="pingPongForm">
                   <p><label>Enter a number below:</label></p>
@@ -30,11 +42,13 @@
                 </form>
           </div><!--Col closes-->
           <div class="col-md-6 right">
+            <div id="initial">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div><!--Initial closes-->
             <div id="result">
               <strong><p>Your results: *oink*</p></strong>
               <ul></ul>
             </div><!--Result closes-->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div><!--Col closes-->
         </div><!--Row closes-->
       </div><!--Container closes-->
