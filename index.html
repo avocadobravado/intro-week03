@@ -11,17 +11,32 @@
     <title>Piggy's Ping Pong</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <h1>Piggy's Ping Pong</h1>
-        <form id="pingPongForm">
-          <label>Enter a number here: </label>
-          <input type="text" name="name" placeholder="Number" id="userInput">
-          <button type="submit" name="button" class="btn">Ping Pong! *oink*</button>
-        </form>
-        <div id="result">
-          <strong><p>Your results: *oink*</p></strong>
-          <ul></ul>
-        </div><!--Result closes-->
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Piggy's Ping Pong</h1>
+        <h2>Rules</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div><!--Jumbotron closes-->
     </div><!--Container closes-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 left">
+              <h1>Play!</h1>
+              <hr>
+                <form id="pingPongForm">
+                  <p><label>Enter a number below:</label></p>
+                  <input type="text" name="name" placeholder="Number" id="userInput">
+                  <button type="submit" name="button" class="btn">Ping Pong! *oink*</button>
+                </form>
+          </div><!--Col closes-->
+          <div class="col-md-6 right">
+            <div id="result">
+              <strong><p>Your results: *oink*</p></strong>
+              <ul></ul>
+            </div><!--Result closes-->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div><!--Col closes-->
+        </div><!--Row closes-->
+      </div><!--Container closes-->
   </body>
 </html>
