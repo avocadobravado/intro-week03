@@ -12,6 +12,7 @@
  | Numbers divisible by 5 will display "pong"     | 5      | pong      |
  | Numbers divisible by 15 will display "pingpong"| 45     | pingpong  |
  | All other numbers will displayed as is         | 7      | 7         |
+ | Negative numbers and letters not recognized    | b      | NaN       |
 
 ## Setup/Installation Requirements
 
@@ -29,7 +30,7 @@ OR...
 
 ## Known Bugs
 
-
+* No working code for last spec was pushed to final version, so nothing will happen when a user inputs a negative number or a letter
 
 ## Support and contact details
 
