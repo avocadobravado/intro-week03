@@ -52,7 +52,7 @@ OR...
 
 ## Acknowledgments
 
-*
+* Credit to [FreePik for the pig images](http://www.freepik.com/free-vector/hand-drawn-pig-emoticons_1038141.html)
 
 ## License
 
