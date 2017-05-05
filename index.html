@@ -2,7 +2,8 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Concert+One|Muli:300,400,800i,900" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One|Muli:300,900" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
     <script
     src="https://code.jquery.com/jquery-3.2.1.js"
@@ -16,17 +17,19 @@
       <div class="jumbotron">
         <div class="row">
           <h1>Piggy's Ping Pong</h1>
-          <div class="col-md-6 jumboleft">
+          <div class="col-sm-6 jumboleft">
             <h2>Rules</h2>
             <hr>
             <p>Welcome to Piggy’s Ping Pong! Ping Pong will count up to your number <strong>*oink*</strong> from one with the following exceptions:</p>
-            <ul>
-              <li>Numbers divisible by 3 will become <strong>"ping"</strong></li>
-              <li>Numbers divisible by 5 will become <strong>"pong"</strong></li>
-              <li>Numbers divisible by 3 and 5 will become <strong>"pingpong"</strong></li>
-            </ul>
+              <div class="well">
+              <ul id="wellUl">
+                <li>Numbers divisible by 3 will become <strong>"ping"</strong></li>
+                <li>Numbers divisible by 5 will become <strong>"pong"</strong></li>
+                <li>Numbers divisible by 3 and 5 will become <strong>"pingpong"</strong></li>
+              </ul>
+            </div><!--Well closes-->
           </div><!--Jumboleft closes-->
-          <div class="col-md-6 jumboright">
+          <div class="col-sm-6 jumboright">
             <img src="img/bigpig.png" class="pigpic">
           </div><!--Jumboright closes-->
         </div><!--Row closes-->
@@ -34,27 +37,29 @@
     </div><!--Container closes-->
       <div class="container play">
         <div class="row">
-          <div class="col-md-6 left">
+          <div class="col-md-8 left">
               <h1>1... 2... Play!</h1>
               <hr>
                 <form id="pingPongForm">
-                  <p><label><strong>*oink*</strong> Enter a number below:</label></p>
-                  <input type="text" name="name" placeholder="Number" id="userInput">
-                  <button type="submit" name="button" class="btn">Ping Pong! *oink*</button>
+                  <p><label>Enter a number below to play Piggy's Ping Pong: <strong>*oink*</strong> </label></p>
+                  <p><input type="text" name="name" placeholder="Number" id="userInput"></p>
+                  <p><button type="submit" name="button" class="btn">Ping Pong!</button></p>
                 </form>
           </div><!--Col closes-->
-          <div class="col-md-6 right">
+          <div class="col-md-4 right">
             <div id="initial">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <h1>Results</h1>
+              <hr>
           </div><!--Initial closes-->
             <div id="result">
-              <strong><p>Your results: *oink*</p></strong>
               <ul></ul>
             </div><!--Result closes-->
           </div><!--Col closes-->
         </div><!--Row closes-->
       </div><!--Container closes-->
-      <div class="panel-footer">Coded with <3 at Epicodus</div>
-      </div><!--Panel closes-->
+      <footer>
+        <div class="panel-footer">Coded with <i class="em em-coffee"></i> &amp; <i class="em em-heart"></i> at <a href="http://epicodus.com">Epicodus</a></div>
+        </div><!--Panel closes-->
+      </footer><!--Footer closes-->
   </body>
 </html>
