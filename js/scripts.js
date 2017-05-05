@@ -26,6 +26,7 @@ $(function() {
     input.forEach(function(num) {
       $("#result").append("<li>" + num + "</li>");
     });
+    $("#initial").hide();
     $("#result").fadeIn("slow");
   });
 });
