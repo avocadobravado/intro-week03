@@ -48,7 +48,7 @@ OR...
 
 * Bootstrap
 * Google Fonts
-* Font Awesome
+* [Emoji CSS](https://afeld.github.io/emoji-css/)
 
 ## Acknowledgments
 
